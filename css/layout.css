@@ -214,6 +214,7 @@ main a:nth-child(1){
   font-weight: 500;
   overflow: hidden;
   animation: floating 3s ease-in-out infinite;
+  z-index: 1;
 }
 main a:hover{
   background-color: #fff;
