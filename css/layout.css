@@ -685,8 +685,9 @@ main a img{
 }
 
 #s5 .content div {
+  color: #fff;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -699,6 +700,7 @@ main a img{
   margin-top: 25px;
   border-radius: 5px;
   color: #fff;
+  font-size: 15px;
   transition: 0.35s;
 }
 #s5 a:hover{
@@ -712,6 +714,7 @@ main a img{
   height: 400px;
   perspective: 800px;
   overflow: hidden;
+  border: 5px solid #ac0000;
 }
 #s5 .card-frame:hover .card-items{transform: rotateY(180deg);}
 .card-items{
@@ -741,15 +744,15 @@ footer .container{
   margin: auto;
   width: 1400px;
   height: 400px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   text-align: left;
-  line-height: 1.5;
+  line-height: 2;
 }
 footer img{
   width: 300px;
   height: 64px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 footer .content{
   display: flex;
